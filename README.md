@@ -34,12 +34,13 @@ This web app has one ux in index.html which collect the text and select the mode
 ## run
 
 The project was done using python3 and needed to install some dependencies such as flask framework and morse lib:
-
-<pip install Flask>
-<pip install morse>
-
+```
+$pip install Flask
+$pip install morse
+```
 The commands to set env variables and run the project is:
-
-<export FLASK_APP=src/app.py>
-<export FLASK_ENV=development> (used to development environment)
-<flask run>
+```
+$export FLASK_APP=src/app.py
+$export FLASK_ENV=development (used to development environment)
+$flask run
+```
