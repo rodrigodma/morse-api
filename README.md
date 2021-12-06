@@ -25,7 +25,7 @@ The project has the following structure:
 
 This archtecture allows shared responsability, dividing in controllers and services, and uses patterns which permits extensionability and reuse of code such as creating more services and, in encoder service, creating more encoders. The morse encode logic used was a lib called morse3 (https://pypi.org/project/morse3/) but the archtecture permits change the implementation easilly with a decoupled code.
 
-Usually, I would use some testing framework to do unit and integration tests but it will be added in the next refactor release. Such as, creating some pipeline of integration and deploy. I would deploy this project in a servless platform such as cloud function or cloud run of GCP to allows robustness and scalability.
+Usually, I would use some testing framework to do unit and integration tests but it will be added in the next refactor release. Such as, creating some pipeline of integration and deploy. I would deploy this project in a serveless platform such as cloud function or cloud run of GCP to allows robustness and scalability.
 
 This web app has one ux in index.html which collect the text and select the mode (encode or decode) and showing the result as illustrated by the figure below:
 
